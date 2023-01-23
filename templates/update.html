@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>show</title>
+    </head>
+    <body>
+        <form method="post" action="/update/{{data.id}}">
+            <input name="id" value={{data.id}} type="number" placeholder="enter id" required="1">
+            <input name="name" value="{{data.name}}" type="text" placeholder="enter name" required="1">
+            <input type="submit">
+        </form>
+    </body>
+</html>

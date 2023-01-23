@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>show</title>
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <td>id</td>
+                <td>name</td>
+            </tr>
+            {%for i in data%}
+            <tr>
+                <th>{{i.id}}</th>
+                <th>{{i.name}}</th>
+            </tr>
+            {%endfor%}
+        </table>
+    </body>
+</html>
